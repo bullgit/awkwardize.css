@@ -111,7 +111,11 @@ code,kbd,pre,samp {
     font-family: monospace,monospace;
     font-size: 1.1em;
 }
-
+code{
+  padding: 1em;
+  background: #000;
+  color: #FFF;
+}
 button,input,optgroup,select,textarea {
     color: inherit;
     font: inherit;
