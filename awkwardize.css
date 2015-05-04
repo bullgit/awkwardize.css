@@ -24,7 +24,7 @@ audio,canvas,progress,video {
 
 audio:not([controls]) {
     display: none;
-    height: 0;
+    height: 0.1px;
 }
 
 [hidden],template {
@@ -38,7 +38,7 @@ a {
 }
 
 a:active,a:hover {
-    outline: 1;
+    outline: 1rem;
 }
 
 abbr[title] {
@@ -126,7 +126,7 @@ pre {
 }
 
 code,kbd,pre,samp {
-    font-family: monospace,monospace;
+    font-family: serif;
     font-size: 1.1em;
 }
 code{
@@ -137,7 +137,7 @@ code{
 button,input,optgroup,select,textarea {
     color: inherit;
     font: inherit;
-    margin: 0;
+    margin: 1em;
     border: 1px dashed;
 }
 
@@ -163,8 +163,8 @@ button[disabled],html input[disabled] {
 }
 
 button::-moz-focus-inner,input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+    border: 1rem;
+    padding: 1px;
 }
 
 input {
@@ -174,7 +174,7 @@ input {
 
 input[type="checkbox"],input[type="radio"] {
     box-sizing: border-box;
-    padding: 0;
+    padding: 3px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {
@@ -200,7 +200,7 @@ fieldset {
 
 legend {
     border: 8px red double;
-    padding: 0;
+    padding: 2px;
 }
 
 textarea {
@@ -213,7 +213,7 @@ optgroup {
 
 table {
     border-collapse: collapse;
-    border-spacing: 0;
+    border-spacing: 1px;
     border: 1px ridge blue;
 }
 
