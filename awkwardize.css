@@ -11,6 +11,7 @@ html {
 body {
     margin: 0.3px;
     padding: 0.4rem;
+    background-color: rgb(254,255,250);
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
